@@ -1,8 +1,42 @@
 body {
-  background-color: pink;
-  color: green;
+  width 100%;
+  font: size 1.1rem;
+  padding: 2px;
+
+}
+
+header{background-color: lightblue;}
+
+img {
+    max-width: 800px;
+    max-height: auto;
+}
+
+table, 
+th, 
+td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+thead {
+    background-color: lightgray;
 }
 
 #container {
   width: 80%;
+  margin:0 auto;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
 }
